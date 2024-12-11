@@ -12,43 +12,44 @@
 <body>
   <div class="container">
     <div class="calculator">
+
       <table>
         <tr>
-          <td>
-            <input type="text" id="display" readonly />
+          <td colspan="4">
+            <input type="text" id="display" readonly>
           </td>
         </tr>
-        <tr class="d-flex">
-          <td><button class="calculatorButton" id="cleanDisplay" value="C">C</button></td>
-          <td><button class="calculatorButton" id="deleteDigit" value="CE">CE</button></td>
-          <td><button class="calculatorButton" id="division" value="/">&divide;</button></td>
-          <td><button class="calculatorButton" id="multiplication" value="*">&times;</button></td>
+        <tr>
+          <td><button class="calculatorButtons" id="cleanDisplay" value="C">C</td>
+          <td><button class="calculatorButtons" id="deleteDigit" value="CE">CE</td>
+          <td><button class="calculatorButtons" id="division" value="/">&divide;</td>
+          <td><button class="calculatorButtons" id="multiplication" value="*">&times;</td>
         </tr>
-        <tr class="d-flex">
-          <td><button class="calculatorButton" id="num7" value="7">7</button></td>
-          <td><button class="calculatorButton" id="num8" value="8">8</button></td>
-          <td><button class="calculatorButton" id="num9" value="9">9</button></td>
-          <td><button class="calculatorButton" id="subtraction" value="-">-</button></td>
+        <tr>
+          <td><button class="calculatorButtons" id="num7" value="7">7</td>
+          <td><button class="calculatorButtons" id="num8" value="8">8</td>
+          <td><button class="calculatorButtons" id="num9" value="9">9</td>
+          <td><button class="calculatorButtons" id="subtraction" value="-">-</td>
         </tr>
-        <tr class="d-flex">
-          <td><button class="calculatorButton" id="num4" value="4">4</button></td>
-          <td><button class="calculatorButton" id="num5" value="5">5</button></td>
-          <td><button class="calculatorButton" id="num6" value="6">6</button></td>
-          <td><button class="calculatorButton" id="sum" value="+">+</button></td>
+        <tr>
+          <td><button class="calculatorButtons" id="num4" value="4">4</td>
+          <td><button class="calculatorButtons" id="num5" value="5">5</td>
+          <td><button class="calculatorButtons" id="num6" value="6">6</td>
+          <td><button class="calculatorButtons" id="sum" value="+">+</td>
         </tr>
-        <tr class="d-flex">
-          <td><button class="calculatorButton" id="num1" value="1">1</button></td>
-          <td><button class="calculatorButton" id="num2" value="2">2</button></td>
-          <td><button class="calculatorButton" id="num3" value="3">3</button></td>
-          <td rowspan="2"><button class="calculatorButton" id="result" value="=">=</button></td>
+        <tr>
+          <td><button class="calculatorButtons" id="num1" value="1">1</td>
+          <td><button class="calculatorButtons" id="num2" value="2">2</td>
+          <td><button class="calculatorButtons" id="num3" value="3">3</td>
+          <td rowspan="2"><button class="calculatorButtons" id="result" value="=">=</td>
         </tr>
-        <tr class="d-flex">
-          <td colspan="2"><button class="calculatorButton" id="num0" value="0" class="num20">0</button></td>
-          <td><button class="calculatorButton" id="point" value=".">.</button></td>
+        <tr>
+          <td colspan="2"><button class="calculatorButtons" id="num0" value="0">0</td>
+          <td><button class="calculatorButtons" id="point" value=".">.</td>
         </tr>
       </table>
     </div>
-  </div>
+</div>
   <script src="script.js"></script>
 </body>
 
